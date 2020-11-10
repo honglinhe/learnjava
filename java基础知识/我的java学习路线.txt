@@ -1,0 +1,9 @@
+java基础 https://www.bilibili.com/video/BV1Rx411876f/
+mysql 不清楚
+jdbc https://www.bilibili.com/video/BV1eJ411c7rf/
+前端html、css(做后端的话了解一下就好) https://www.bilibili.com/video/BV1XJ411X7Ud/
+javascript（同上先了解一下就好） thttps://www.bilibili.com/video/BV1YW411T7GX/
+servlet https://www.bilibili.com/video/BV1vb41187jH/
+ssm框架 https://www.bilibili.com/video/BV1mE411X7yp/ 和https://www.bilibili.com/video/BV1d4411g7tv/都很好
+springboot https://www.bilibili.com/video/BV1Et411Y7tQ/
+后面我不知道
