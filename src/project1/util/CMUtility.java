@@ -91,7 +91,7 @@ public class CMUtility {
                 else continue;
             }
             if (line.length()<1||line.length()>limit){
-                System.out.print("输入长度（不大于"+limit+"");
+                System.out.print("输入长度（不大于"+limit+")错误，请重新输入");
             }
             break;
 
