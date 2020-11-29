@@ -5,6 +5,7 @@ import Project3.domain.Programmer;
 import Project3.service.NameListService;
 import Project3.service.TeamException;
 import Project3.service.TeamService;
+import org.w3c.dom.ls.LSOutput;
 
 public class TeamView {
     private NameListService listSvc = new NameListService();
@@ -106,7 +107,6 @@ public class TeamView {
             } catch (TeamException e) {
                 System.out.println("删除失败，原因是"+e.getMessage());
             }
-
         }
         System.out.println("------------------------------------------");
     }
@@ -114,7 +114,11 @@ public class TeamView {
     public static void main(String[] args) {
         TeamView teamView = new TeamView();
         teamView.enterMainMenu();
+
+
     }
+
+    
 
 
 }
