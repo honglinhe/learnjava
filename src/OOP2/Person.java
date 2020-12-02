@@ -3,7 +3,8 @@ package OOP2;
 import java.util.Objects;
 
 public class Person {
-    String name;
+    public String name;
+//    String name;
     int age;
 //    int id;
     String id = "人的身份证号";
