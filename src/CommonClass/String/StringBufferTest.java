@@ -58,5 +58,6 @@ public class StringBufferTest {
         System.out.println(s.replace(0, 1, "qwe"));//qwes1
         System.out.println(s.insert(2, "aaaa"));//qwaaaaes1
         System.out.println(s.reverse());//1seaaaawq
+        
     }
 }
