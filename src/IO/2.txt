@@ -1,0 +1,36 @@
+# 一、为什么要使用集合
+1.集合、数组都是对多个数据进行存储操作的结构，简称**Java容器**。
+
+2.1 数组在存储多个数据方面的**特点**:
+
+* 一旦初始化以后，其长度就确定了。
+* 数组一旦定义好，其元素的类型也就确定了。我们也就只能操作指定类型的数据了。
+
+2.2数组在存储多个数据方面的**缺点**:
+
+ *      一旦初始化以后，其长度就不可修改。
+ *      数组中提供的方法非常有限，对于添加、删除、插入数据等操作，非常不便，同时效率不高。
+ *      获取数组中实际元素的个数的需求，数组没有现成的属性或方法可用
+ *  数组存储数据的特点:有序、可重复。对于无序、不可重复的需求，不能满足。
+
+
+ **就是因为数组有以上的缺点，所以引出集合。**
+
+
+## 4.Collections工具类
+
+**排序操作:**（均为static方法）
+* reverse（List）:反转List 中元素的顺序
+* shufle（List）:对List集合元素进行随机排序
+* sort（List）:根据元素的自然顺序对指定List 集合元素按升序排序
+* sort（List， Comparator）: 根据指定的Comparator产生的顺序对List集合元素进行排序
+* swap（List， int， int）: 将指定list 集合中的i处元素和j处元素进行交换
+
+**查找、替换**
+* Object max（Collection）:根据元素的自然顺序，返回给定集合中的最大元素·Object max（Collection， Comparator）: 根据Comparator指定的顺序，返回给定集合中的最大元素
+* Object min（Collection）
+s
+* Object min（Collection， Comparator）
+* int frequency（Collection， Object）: 返回指定集合中指定元素的出现次数
+* void copy（List dest，List src）:将src中的内容复制到dest中
+* boolean replaceAll（List list， Object oldVal， Object newVal）:使用新值替换List对象的所有旧值
